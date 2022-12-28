@@ -63,61 +63,7 @@
 
                 <div class="container-fluid">
                     <ul class="navbar-nav topbar-nav ml-md-auto align-items-center">
-                        <!-- <li class="nav-item dropdown hidden-caret">
-                            <a class="nav-link dropdown-toggle" href="#" id="notifDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="fa fa-bell"></i>
-                                <span class="notification">+</span>
-                            </a>
-                            <ul class="dropdown-menu notif-box animated fadeIn" aria-labelledby="notifDropdown">
-                                <li>
-                                    <div class="dropdown-title">You have new notification</div>
-                                </li>
-                                <li>
-                                    <div class="notif-scroll scrollbar-outer">
-                                        <div class="notif-center">
-                                            <a href="#">
-                                                <div class="notif-icon notif-primary"> <i class="fa fa-user-plus"></i> </div>
-                                                <div class="notif-content">
-                                                    <span class="block">
-                                                        New user registered
-                                                    </span>
-                                                    <span class="time">5 minutes ago</span>
-                                                </div>
-                                            </a>
-                                            <a href="#">
-                                                <div class="notif-icon notif-success"> <i class="fa fa-comment"></i> </div>
-                                                <div class="notif-content">
-                                                    <span class="block">
-                                                        Rahmad commented on Admin
-                                                    </span>
-                                                    <span class="time">12 minutes ago</span>
-                                                </div>
-                                            </a>
-                                            <a href="#">
-                                                <div class="notif-img">
-                                                    <img src="../assets/img/profile2.jpg" alt="Img Profile">
-                                                </div>
-                                                <div class="notif-content">
-                                                    <span class="block">
-                                                        Reza send messages to you
-                                                    </span>
-                                                    <span class="time">12 minutes ago</span>
-                                                </div>
-                                            </a>
-                                            <a href="#">
-                                                <div class="notif-icon notif-danger"> <i class="fa fa-heart"></i> </div>
-                                                <div class="notif-content">
-                                                    <span class="block">
-                                                        Farrah liked Admin
-                                                    </span>
-                                                    <span class="time">17 minutes ago</span>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </li> -->
+
                         <li class="nav-item dropdown hidden-caret">
                             <a class="dropdown-toggle profile-pic" data-toggle="dropdown" href="#" aria-expanded="false">
                                 <div class="avatar-sm">
@@ -254,26 +200,7 @@
                                 </ul>
                             </div>
                         </li>
-                        <!-- <li class="nav-item">
-                            <a data-toggle="collapse" href="#dinamo">
-                                <i class="fas fa-store"></i>
-                                <p>Service Dinamo</p>
-                            </a>
-                            <div class="collapse" id="dinamo">
-                                <ul class="nav nav-collapse">
-                                    <li>
-                                        <a href="#">
-                                            <span class="sub-item">Detail Service</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <span class="sub-item">Tabel Order</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li> -->
+
                         <li class="nav-item">
                             <a data-toggle="collapse" href="#rekomendasi">
                                 <i class="fas fa-star"></i>
@@ -289,36 +216,6 @@
                                 </ul>
                             </div>
                         </li>
-                        <!-- <li class="nav-item">
-                            <a data-toggle="collapse" href="#photo_video">
-                                <i class="fab fa-youtube-square"></i>
-                                <p>Foto & Video Desa</p>
-                            </a>
-                            <div class="collapse" id="photo_video">
-                                <ul class="nav nav-collapse">
-                                    <li>
-                                        <a href="/foto_video">
-                                            <span class="sub-item">Detail Foto & Video</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li> -->
-                        <!-- <li class="nav-item">
-                            <a data-toggle="collapse" href="#contact">
-                                <i class="fas fa-book"></i>
-                                <p>Kontak</p>
-                            </a>
-                            <div class="collapse" id="contact">
-                                <ul class="nav nav-collapse">
-                                    <li>
-                                        <a href="/cont_keluar">
-                                            <span class="sub-item">Detail Kontak</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li> -->
 
                     </ul>
                 </div>

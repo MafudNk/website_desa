@@ -95,7 +95,7 @@ Route::group(['middleware' => ['auth']], function () {
     Route::post('/edit_rekomendasi/{id}', [AdminController::class, 'rekomen_edit']);
     Route::get('/delete_rekomendasi/{id}', [AdminController::class, 'rekomen_destroy']);
 
-     /* Desa */
-     Route::get('/desa', [AdminController::class, 'desa']);
-     Route::post('/desa_edit/{id}', [AdminController::class, 'desa_edit']);
+    /* Desa */
+    Route::get('/desa', [AdminController::class, 'desa']);
+    Route::post('/desa_edit/{id}', [AdminController::class, 'desa_edit']);
 });

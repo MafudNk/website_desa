@@ -88,88 +88,8 @@
     </div>
 </div>
 
-<!-- 
-// add data
+<!-- Edit data -->
 
-<div class="modal fade" id="modalAddUser" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLongTitle">Add User</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <form action="/user" method="POST" enctype="multipart/form-data">
-                @csrf
-                <div class="modal-body">
-                    <div class="form-grup">
-                        <label>Nama Lengkap</label>
-                        <input type="text" class="form-control" name="full_name" placeholder="Nama Lengkap ..." required>
-                    </div>
-                    <div class="form-grup">
-                        <label>Username</label>
-                        <input type="text" class="form-control" name="username" placeholder="Username ..." required>
-                    </div>
-
-                    <div class="form-grup">
-                        <label>Email</label>
-                        <input type="email" class="form-control" name="email" placeholder="Email ..." required>
-                    </div>
-
-                    <div class="form-grup">
-                        <label>Password</label>
-                        <input type="password" class="form-control" name="password" placeholder="Password ..." required>
-                    </div>
-
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal"><i class="fa fa-undo"></i>Close</button>
-                        <button type="submit" class="btn btn-primary"><i class="fa fa-save"></i> Save changes</button>
-                    </div>
-                </div>
-            </form>
-        </div>
-    </div>
-</div>
---
-
-//hapus data
-
-@foreach($data as $g)
-<div class="modal fade" id="modalHapusUser{{$g->user_id}}" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLongTitle">Hapus User</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <form method="GET" enctype="multipart/form-data" action="/user_destroy/{id}">
-                @csrf
-                <div class="modal-body">
-
-                    <input type="hidden" value="{{$g->user_id}}" name="id" required>
-
-                    <div class="form-grup">
-                        <h4>Apakah anda ingin menghapus data ini?</h4>
-                    </div>
-
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal"><i class="fa fa-undo"></i>Close</button>
-                        <button type="submit" class="btn btn-danger"> <i class="fa fa-trash"></i>Hapus Data</button>
-                    </div>
-                </div>
-            </form>
-        </div>
-    </div>
-</div>
-
-@endforeach
-
-//edit 
--->
 @foreach($data as $g)
 <div class="modal fade" id="modalEditDesa{{$g->desa_id}}" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
